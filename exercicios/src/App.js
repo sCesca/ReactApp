@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { Text } from 'react-native'
+import { View, StyleSheet } from 'react-native'
 
 /*
 function App() {
@@ -27,4 +27,14 @@ export default () => {
 }
 */
 
-export default () => {<text>Olá, primeiro componente!!</text>}
+import  CompPadrao, { Comp1, Comp2 } from './components/multi'
+import Primeiro from './components/primeiro'
+
+export default () => (
+    <View>
+        <Primeiro></Primeiro>
+        <CompPadrao></CompPadrao>
+        <Comp1></Comp1>
+        <Comp2></Comp2>
+    </View>
+)
