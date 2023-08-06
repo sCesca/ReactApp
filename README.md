@@ -9,9 +9,9 @@
     - {intro-typescript}: módulo de introdução aos fundamentos de TypeScript 
 
 ## Instalações
-> exercícios
-    Configuração de ambiente com expo seguindo a documentação do React Native: https://reactnative.dev/docs/environment-setup
-> intro-typescript
+    > exercicios: Configuração de ambiente com expo seguindo a documentação do React Native: https://reactnative.dev/docs/environment-setup
+
+    > intro-typescript
 
     back-end: 
         yarn init -y
