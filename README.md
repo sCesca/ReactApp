@@ -1,4 +1,4 @@
-# Introdução ao React Native com TypeScript
+# <Introdução ao React Native com TypeScript>
 
 ## Descrição/Motivação
     Olá, meu nome é Samuel Fagundes Cesca. Esse repositório se destina ao estudo da ferramenta React Native. Nele, irei colocar exercícios e projetos de treino. 
@@ -18,3 +18,9 @@
 
         > Adicionando dependencia 
         yarn add -D typescript
+        yarn add express
+        yarn add @types/express -D
+
+        > fazer com que o node consiga interpretar o código
+        yarn tsc --init
+        yarn tsc
